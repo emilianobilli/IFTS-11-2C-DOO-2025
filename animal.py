@@ -26,7 +26,7 @@ pista = [
 ]
 
 termino = False
-while not termino:
+while termino == False:
     i = 0
     os.system("clear")
     while i < len(pista):
